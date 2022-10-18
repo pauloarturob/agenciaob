@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: green;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    flex: 20%;
+    border: 1px solid wheat;
+    text-align: center;
+
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.menu {
+    flex: 80%;
+    text-align: right;
+    padding: 20px;
+}
